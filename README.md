@@ -54,11 +54,11 @@ La arquitectura del sistema responde a los requisitos de desacoplamiento, adapta
 
 ## 👥 Equipo de Arquitectura Software
 
-* **ASS 1 (Senior Software Architect):** [Paula de la Fuente Ruiz]
-* **ASS 2 (Senior Software Architect):** [Marcos Vidal Castillo]
-* **ASC 1 (Cognitive Software Architect):** [Francisco García González]
-* **ASC 2 (Cognitive Software Architect):** [Fernán Rama Hombreiro]
-* **ASJ (Junior Software Architect / Modeler):** [Álvaro Fernández Jiménez]
+* **ASS 1 (Senior Software Architect):** [Paula de la Fuente Ruiz] (https://github.com/Paula-2704)
+* **ASS 2 (Senior Software Architect):** [Marcos Vidal Castillo] (https://github.com/Marcos-VC)
+* **ASC 1 (Cognitive Software Architect):** [Francisco García González] (https://github.com/Fran-G-G)
+* **ASC 2 (Cognitive Software Architect):** [Fernán Rama Hombreiro] (https://github.com/fernanrama)
+* **ASJ (Junior Software Architect / Modeler):** [Álvaro Fernández Jiménez] (https://github.com/minicruck)
 
 ---
 
