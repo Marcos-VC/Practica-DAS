@@ -16,6 +16,59 @@ El sistema permite a los lectores consumir noticias y suscribirse de forma anón
 
 ---
 
+## Roadmap
+```mermaid
+timeline
+    title Planificación 
+
+    Antes del 2 de Noviembre : Comprender instrucciones
+                            : Acordar cómo trabajar
+                            : Preparar repositorio y documentación
+
+    Semana 1 (2 al 7 Nov) : Analizar requisitos
+                          : Tomar primeras decisiones de estilo
+                          : Producir UML inicial
+
+    9 y 10 de Noviembre : Revisar requisitos y estilo antes de fijar
+
+    Resto semana 2 (hasta 14 Nov) : Incorporar nuevas decisiones
+                                  : Refinar clases y paquetes
+
+    Semana 3 (16 al 19 Nov) : Completar el diseño
+                            : Cerrar contenido del repositorio
+
+    20 al 22 de Noviembre : Terminar y revisar memoria
+                          : Preparar paquete de entrega
+
+    23 de Noviembre : Entrega del comprimido
+
+```
+
+---
+
+```mermaid
+gantt
+    dateFormat  YYYY-MM-DD
+    title  
+
+    section Fase 1: Preparación
+    Comprender instrucciones, acordar metodología y preparar repo y doc  :a1, 2026-10-26, 2026-11-02
+
+    section Fase 2: Análisis y UML
+    Analizar requisitos, estilo y UML inicial                                :a2, 2026-11-02, 2026-11-08
+    Revisar requisitos y estilo                                              :a3, 2026-11-09, 2026-11-11
+
+    section Fase 3: Diseño y Refino
+    Incorporar decisiones y refinar clases/paquetes                         :a4, 2026-11-11, 2026-11-15
+    Completar diseño y cerrar contenido del repo                           :a5, 2026-11-16, 2026-11-20
+
+    section Fase 4: Entrega
+    Terminar y revisar memoria y paquete de entrega                         :a6, 2026-11-20, 2026-11-23
+    Entrega del comprimido                                                   :milestone, m1, 2026-11-23, 0d
+```
+
+---
+
 ## 📄 Documentación Completa
 
 Puedes consultar el informe técnico completo y la memoria del proyecto en el siguiente enlace:
