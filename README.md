@@ -14,6 +14,7 @@ Este repositorio contiene la especificación de requisitos, las decisiones de di
 
 El sistema permite a los lectores consumir noticias y suscribirse de forma anónima a canales temáticos, gestionar planes de pago recurrentes integrados con Stripe y proporcionar a los administradores métricas clave de uso y conversión.
 
+[Enlace al Word de memoria compartido](https://urjc-my.sharepoint.com/:w:/g/personal/f_rama_2024_alumnos_urjc_es/cQpzlZhQWZhaRb8YWCz_ZElSEgUC6k5yPD3FxoMfu9js2Yuqpw)
 ---
 
 ## Roadmap
