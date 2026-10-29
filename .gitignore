@@ -1,0 +1,10 @@
+# Archivos temporales de sistemas y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+*.swp
+*.swo
+.~lock.*#
+# No ignorar fuentes UML, exportaciones ni evidencias semanales.
