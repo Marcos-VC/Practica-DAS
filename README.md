@@ -89,6 +89,7 @@ gantt
 * **ASC 1 (Cognitive Software Architect):** [Francisco García González](https://github.com/Fran-G-G)
 * **ASC 2 (Cognitive Software Architect):** [Fernán Rama Hombreiro](https://github.com/fernanrama)
 * **ASJ (Junior Software Architect / Modeler):** [Álvaro Fernández Jiménez](https://github.com/minicruck)
+* **ASJ (Junior Software Architect / Modeler):** [Alejandro Lefebvre Valiente](https://github.com/LBV6)
 
 ---
 
