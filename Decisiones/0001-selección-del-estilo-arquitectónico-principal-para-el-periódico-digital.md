@@ -25,7 +25,7 @@ El sistema del periódico digital requiere definir un estilo arquitectónico glo
 
 ## Decision Outcome
 
-Chosen option: "Alternativa 1: Alternativa multicapa", because comes out best.
+Chosen option: "Alternativa 1: Alternativa multicapa", because permite una separación limpia de las responsabilidades en tres capas, aislando la discriminación de clientes en la capa de presentación y facilita el acceso directo a las dos bases de datos PostgreQSL 19 sin la sobrecarga ni complejidad de las alternativas 2 y 3.
 
 ### Positive Consequences
 
