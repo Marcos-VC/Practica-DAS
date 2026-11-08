@@ -46,3 +46,13 @@ Plantilla sin completar. Copiar a `Decisiones/0001-titulo.md` antes de usarla; q
 
 [Efectos de la elección y elementos que deberá representar el UML.]
 
+- UML: [Enlace a la versión y semana correspondientes]
+
+## Discusión y revisión
+
+- Registro: [Enlace a Discusiones/AAAA-MM-DD-01-tema.md]
+- Resultado de la revisión: [Cambios o mantenimiento justificado]
+
+## Fuentes
+
+[Solo fuentes realmente consultadas.]

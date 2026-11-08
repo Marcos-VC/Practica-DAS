@@ -37,4 +37,5 @@ Estado: pendiente de revisión el martes 10.
 
 | Fecha | Cuestión | Respuesta y fuente | Efecto en los requisitos |
 | --- | --- | --- | --- |
-| [Fecha] | [Completar solo con una duda real] | [Pendiente o respuesta real del profesor] | [IDs afectados, si existen] |
+| 2026-11-07 | Aclarar el alcance del anonimato de la suscripción y su relación con el registro y la autenticación añadidos al caso. Identificar estos requisitos como supuestos si corresponde. | Pendiente de revisión en la clase del 10/11. | RF-01.1, RF-05.1, RF-05.2 |
+| 2026-11-07 | El anexo permite reintentar el pago hasta tres veces; aclarar si los reintentos deben ser automáticos o si esto es un supuesto adicional. | Pendiente de revisión en la clase del 10/11. | RD-05 |
