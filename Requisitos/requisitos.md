@@ -2,7 +2,7 @@
 
 Estado: pendiente de revisión el antes del miercoles 11.
 
-### 4.1. Requisitos funcionales 
+### Requisitos funcionales 
 
 | ID | Requisito | Descripción |
 | --- | --- | --- |
@@ -15,7 +15,7 @@ Estado: pendiente de revisión el antes del miercoles 11.
 
 ---
 
-### 4.2. Requisitos de dominio 
+### Requisitos de dominio 
 
 | ID | Requisito | Descripción |
 | --- | --- | --- |
@@ -25,7 +25,7 @@ Estado: pendiente de revisión el antes del miercoles 11.
 
 ---
 
-### 4.3. Problemas de diseño identificados 
+### Problemas de diseño identificados 
 
 | ID | Problema de diseño | Requisitos relacionados |
 | --- | --- | --- |
@@ -38,6 +38,4 @@ Estado: pendiente de revisión el antes del miercoles 11.
 
 | Fecha | Cuestión | Respuesta y fuente | Efecto en los requisitos |
 | --- | --- | --- | --- |
-| 2026-11-07 | Aclarar el alcance del anonimato de la suscripción y su relación con el registro y la autenticación añadidos al caso. Identificar estos requisitos como supuestos si corresponde. | Pendiente de revisión en la clase del 10/11. | RF-01.1, RF-05.1, RF-05.2 |
-| 2026-11-07 | El anexo permite reintentar el pago hasta tres veces; aclarar si los reintentos deben ser automáticos o si esto es un supuesto adicional. | Pendiente de revisión en la clase del 10/11. | RD-05 |
 | 2026-11-10 | ¿Los problemas de diseño van en el directorio de requisitos? ¿O el de decisiones?. | RD-05 |
