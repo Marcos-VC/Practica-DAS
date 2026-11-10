@@ -38,4 +38,4 @@ Estado: pendiente de revisión el antes del miercoles 11.
 
 | Fecha | Cuestión | Respuesta y fuente | Efecto en los requisitos |
 | --- | --- | --- | --- |
-| 2026-11-10 | ¿Los problemas de diseño van en el directorio de requisitos? ¿O el de decisiones?. | RD-05 |
+| 2026-11-10 | ¿Los problemas de diseño van en el directorio de requisitos? ¿O el de decisiones?. | |
