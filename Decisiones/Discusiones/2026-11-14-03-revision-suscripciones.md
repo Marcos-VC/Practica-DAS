@@ -15,9 +15,12 @@
 
 4. **Comparación de alternativas.** ¿Por qué escogisteis Publish-Subscribe? (por ejemplo antes que observer o mediator). ¿Cómo lo justificáis?
 
+5. **Nuesta propuesta.** Creemos que el patrón Observer se adecúa más a este caso. Si diferís, explicad el porqué.
+
 ## Respuestas de los ASS y resultado
 
 (vuestras respuestas)
+
 ## Referencias
 
 - [Requisitos y problemas de diseño](../../Requisitos/requisitos.md).
