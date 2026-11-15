@@ -19,6 +19,7 @@
 
 ## Respuestas de los ASS y resultado
 
+<<<<<<< HEAD
 1. Al publicarse una noticia, el servidor genera un evento con su identificador y categoría. El sistema utiliza ese evento para poner un aviso de la noticia a disposición de los lectores suscritos a esa categoría. El lector ve los avisos cuando consulta el periódico y accede a la noticia correspondiente. Para registrar altas y bajas bastaría con guardar la relación entre lector y categoría; elegimos Publish-Subscribe para distribuir también los avisos. Esa distribución se plantea aquí como un supuesto de diseño, no como un requisito expresamente confirmado por RF-01.1 y RF-01.2.
 
 2. El servidor genera un identificador aleatorio para el lector y guarda en la base de datos de suscriptores las categorías asociadas a ese identificador, sin solicitar su nombre ni su correo para esta función. El navegador conserva una credencial que permite al servidor reconocer sus suscripciones y tramitar la baja de las categorías solicitadas. Si el lector pierde la credencial, no podrá recuperar desde ese navegador las suscripciones anteriores sin un mecanismo adicional de recuperación. Este identificador es seudónimo: no garantiza por sí solo el anonimato, que también depende de los datos y registros que conserve el sistema.
@@ -28,6 +29,9 @@
 4. Elegimos Publish-Subscribe porque, en el flujo propuesto, la publicación de una noticia y la distribución de avisos quedan separadas mediante un intermediario: el componente que publica no necesita conocer directamente a cada destinatario. Observer resolvería la notificación con una relación más directa entre el elemento observado y sus observadores; Mediator centralizaría la coordinación entre componentes y serviría para gestionar altas y bajas, pero no aporta por sí mismo la distribución por categorías planteada. Publish-Subscribe introduce a cambio un intermediario y complica el seguimiento del flujo. Su capacidad de crecimiento dependerá de cómo se diseñe y dimensione ese mecanismo.
 
 5. Observer es una alternativa válida: la categoría mantiene una relación directa con sus suscriptores y les notifica cuando se publica una noticia. Es una solución sencilla y se corresponde con el diagrama de clases actual. En la propuesta de Publish-Subscribe, en cambio, el componente de noticias publica el evento en un canal y un intermediario se encarga de distribuirlo, sin que el publicador mantenga directamente la lista de destinatarios. Para el flujo de avisos que planteamos, preferimos esta separación, aunque añade un componente y más complejidad.
+=======
+(vuestras respuestas)
+>>>>>>> e4ec103ce9a929974366c05015cb1b3e7eddbc43
 
 ## Referencias
 
