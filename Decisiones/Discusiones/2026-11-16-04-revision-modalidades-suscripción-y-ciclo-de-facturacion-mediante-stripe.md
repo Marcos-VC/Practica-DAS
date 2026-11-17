@@ -15,6 +15,8 @@
 
 4. **Representación UML.** Para que Álvaro y Alejandro puedan trasladar esta decisión a los diagramas de clases y paquetes del servidor, ¿qué interfaz tiene el `StripeAdapter`, cómo se relaciona el gestor de cobros con las estrategias de plan, y dónde queda encapsulada la lógica de los 3 reintentos?
 
+5. Como indica el enunciado de la práctica, no podemos *utilizar un requisito funcional o de dominio en dos o más decisiones*. Por lo tanto, como el `RD-01` aparece en esta decisión (PD-03), ¿no deberíamos quitarlo de los *Decision Drivers* de la decisión 0001? 
+
 ## Respuestas de los ASS y resultado
 
 1. 
@@ -24,6 +26,8 @@
 3. 
 
 4. 
+
+5. 
 
 ## Referencias
 
