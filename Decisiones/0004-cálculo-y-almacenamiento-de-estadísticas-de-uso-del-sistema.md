@@ -15,8 +15,6 @@ El periódico digital debe proporcionar a los administradores y redactores un m�
 
 * PD-04 (RF-03): Registro de métricas de uso para redactores y administradores (noticias más leídas, tiempo de permanencia, tasas de rebote y conversión de lectores a suscriptores).
 * PD-04 (RF-03.1): Cálculo de las tasas de rebote aplicando la fórmula (Visitas-Conversión) /Visitas *100.
-* PD-04 (RD-02): Almacenamiento de las estadísticas de uso en la base de datos PostgreSQL 19 destinada a administradores y redactores.
-
 
 
 ## Considered Options
