@@ -15,7 +15,6 @@ El sistema debe gestionar el cobro recurrente de las suscripciones de los lector
 
 * PD-03 (RF-02.1): Gestión de los ciclos de facturación con tres modalidades (Trimestral 70€, Semestral 130€ y Anual 190€).
 * PD-03 (RF-02.2): Permitir al usuario realizar el pago de la suscripción seleccionada y reintentarlo un máximo de 3 veces.
-* PD-03 (RD-01): Procesamiento exclusivo de todos los pagos a través de Stripe como proveedor externo de servicios de pago.
 
 
 
