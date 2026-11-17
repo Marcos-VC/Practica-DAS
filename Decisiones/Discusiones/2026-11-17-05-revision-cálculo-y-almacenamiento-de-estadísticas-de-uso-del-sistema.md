@@ -3,7 +3,7 @@
 - Semana: 3.
 - Decisión revisada: [0004, cálculo y almacenamiento de estadísticas de uso del sistema](../0004-cálculo-y-almacenamiento-de-estadísticas-de-uso-del-sistema.md).
 - Revisión preparada por: Fran (ASC).
-- Estado: preguntas preparadas para discutir con los ASS; respuestas y resultado pendientes.
+- Estado: respuestas de los ASS registradas
 
 ## Cuestiones para los ASS
 
@@ -17,17 +17,21 @@
 
 5. **Exclusividad de requisitos funcionales.** El driver `PD-04 (RF-03.1)` exige calcular la tasa de rebote mediante la fórmula `(Visitas - Conversión) / Visitas * 100`. ¿Este cálculo queda confinado exclusivamente a este componente del servidor, o interviene algún otro módulo del Front-end?
 
-## Respuestas de los ASS y resultado
+## Borrador de posibles respuestas de los ASS
 
-1. 
+1. Queremos mantener Observer asíncrono con procesamiento por lotes. Cliente-servidor no exige que todas las operaciones internas sean síncronas: el cliente puede consultar noticias mediante HTTP/REST mientras una tarea del mismo servidor procesa estadísticas. Defendemos la alternativa por separar el procesamiento estadístico de la respuesta de lectura.
 
-2. 
+2. La decisión 4 utiliza la base de datos destinada a administradores y redactores, respetando la restricción de persistencia. Hemos hecho los cambios convenientes ya.
 
-3. 
+3. La comunicación síncrona entre cliente y servidor no obliga a escribir las estadísticas antes de responder cada consulta. La ventaja que buscamos es que la lectura de una noticia no tenga que esperar a la consolidación y escritura de sus métricas. Queremos mantener la alternativa elegida.
 
-4. 
+4. Como propuesta de modelado, los servicios de noticias y suscripciones notifican las interacciones relevantes a un `ObservadorEstadisticas` interno, que registra datos ligeros en un `BufferMetricas`. Una `TareaConsolidacion`, activada periódicamente en el servidor, entrega los datos a un `AgregadorEstadisticas`, encargado de calcular y guardar los resultados mediante un repositorio de estadísticas en la base de datos de administradores y redactores. Los nombres son orientativos y no hay diagrama sobre esto.
 
-5. 
+5. Proponemos centralizar la definición y el cálculo de las métricas en el módulo estadístico del servidor. El frontend puede comunicar interacciones y datos de permanencia necesarios para medirlas y mostrar los resultados, sin mantener una segunda definición de las fórmulas. La regla de exclusividad se refiere al uso documental del requisito entre decisiones, no a impedir que varios componentes colaboren en cumplirlo.
+
+## Resultado 
+
+Queremos mantener Observer asíncrono y el procesamiento por lotes. No se ha modificado el MADR.
 
 ## Referencias
 
