@@ -1,6 +1,6 @@
 # Implementación de las modalidades de suscripción y su ciclo de facturación mediante Stripe
 
-* Status: accepted
+* Status: Rejected
 * Deciders: Marcos Vidal Castillo,Paula de la Fuente Ruiz
 * Date: 2026-11-16
 
