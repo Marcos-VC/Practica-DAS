@@ -1,6 +1,6 @@
 # Gestión de suscripciones a categorías de noticias mediante Publish-Subscribe
 
-* Status: proposed
+* Status: Accepted
 * Date: 2026-11-11
 
 Technical Story: Gestión de suscripciones a categorías de noticias mediante Publish-Subscribe
